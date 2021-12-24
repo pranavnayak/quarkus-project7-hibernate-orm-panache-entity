@@ -1,5 +1,5 @@
 # quarkus-project7-hibernate-orm-panache-entity
- A Sample Java Microservice Project built with Quarkus demonstrating  Hibernate ORM PanacheEntity and JPA with PostgreSQL using the active record pattern.
+ A Sample Java Microservice Project built with Quarkus demonstrating  Hibernate ORM PanacheEntity and JPA with PostgreSQL using the active record pattern, which is diferent from that used in the next project numbered 8, which uses the repository pattern to access the entities.
 
 To define a Panache entity, simply extend PanacheEntity, annotate it with @Entity and add your columns as public fields.You can put all your JPA column annotations on the public fields. If you need a field to not be persisted, use the @Transient annotation on it.
 
